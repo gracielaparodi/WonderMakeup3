@@ -1,0 +1,59 @@
+@import "../base/variables";
+
+main {
+    h1 {
+        color: $Tittle-Color;
+        text-align: center;
+        padding: 20px;
+    }
+
+    p {
+        color: $Text-color;
+    }
+
+    nav {
+        display: flex;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        justify-content: center;
+
+        article {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+    }
+
+    h2 {
+        color: $Text-color;
+        text-align: center;
+    }
+
+    figcaption {
+        width: 30%;
+        margin: auto;
+    }
+
+    section {
+        padding: 30px;
+
+        h4 {
+            color: $Text-color;
+        }
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    figcaption {
+        width: 95%;
+    }
+
+    nav {
+        display: grid;
+        flex-wrap: wrap;
+    }
+
+    iframe {
+        width: 350px;
+        height: 200px;
+    }
+}

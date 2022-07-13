@@ -1,0 +1,46 @@
+@import "../base/variables";
+
+footer {
+    position: relative;
+    text-align: right;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 16px;
+
+    .redes {
+        display: flex;
+        justify-content: right;
+
+        redes1 {
+            display: flex;
+            padding: 5px;
+
+            &:hover {
+                filter: opacity(0.9);
+                transform: scale(1.06);
+            }
+        }
+    }
+
+    arriba {
+        text-decoration: none;
+        text-align: right;
+        padding: 30px;
+
+        &a:link {
+            color: #fff;
+
+            &a:hover {
+                color: $Text-color2;
+
+                &a:visited {
+                    color: $Text-color;
+
+                    &a:active {
+                        color: salmon;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@import "../base/variables";
+
+header {
+    banner {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .Banner {
+        width: 100%;
+    }
+}

@@ -1,0 +1,105 @@
+/* Variables */
+/* Variables */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(250, 225, 218);
+  padding: 10px;
+}
+
+/* Variables */
+main h1 {
+  color: #ff6593;
+  text-align: center;
+  padding: 20px;
+}
+main p {
+  color: rgb(173, 117, 117);
+}
+main nav {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-content: center;
+}
+main nav article {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+main h2 {
+  color: rgb(173, 117, 117);
+  text-align: center;
+}
+main figcaption {
+  width: 30%;
+  margin: auto;
+}
+main section {
+  padding: 30px;
+}
+main section h4 {
+  color: rgb(173, 117, 117);
+}
+
+@media only screen and (max-width: 414px) {
+  figcaption {
+    width: 95%;
+  }
+  nav {
+    display: grid;
+    flex-wrap: wrap;
+  }
+  iframe {
+    width: 350px;
+    height: 200px;
+  }
+}
+/* Variables */
+header banner {
+  justify-content: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 414px) {
+  .Banner {
+    width: 100%;
+  }
+}
+/* Variables */
+footer {
+  position: relative;
+  text-align: right;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 16px;
+}
+footer .redes {
+  display: flex;
+  justify-content: right;
+}
+footer .redes redes1 {
+  display: flex;
+  padding: 5px;
+}
+footer .redes redes1:hover {
+  filter: opacity(0.9);
+  transform: scale(1.06);
+}
+footer arriba {
+  text-decoration: none;
+  text-align: right;
+  padding: 30px;
+}
+footer arribaa:link {
+  color: #fff;
+}
+footer arribaa:linka:hover {
+  color: rgb(255, 135, 175);
+}
+footer arribaa:linka:hovera:visited {
+  color: rgb(173, 117, 117);
+}
+footer arribaa:linka:hovera:visiteda:active {
+  color: salmon;
+}
+
+/*# sourceMappingURL=style.css.map */
