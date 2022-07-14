@@ -21,6 +21,11 @@ main {
             justify-content: center;
             padding: 10px;
         }
+
+        article:hover {
+            filter: opacity(0.9);
+            transform: scale(1.04);
+        }
     }
 
     h2 {

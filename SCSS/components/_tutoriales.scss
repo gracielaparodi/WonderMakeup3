@@ -1,0 +1,30 @@
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-auto-rows: minmax(300px, auto);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    flex-wrap: wrap;
+
+    .tutos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h4 {
+            color: $Text-color;
+            padding: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .tutos {
+        justify-content: left;
+        align-items: baseline;
+        padding: 0px;
+        width: 350px;
+    }
+
+}

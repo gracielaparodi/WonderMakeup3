@@ -1,0 +1,10 @@
+$standard: (
+    bg-standard: $BG
+);
+$premium: (
+    bg-premium: linear-gradient(135deg, rgb(251, 242, 239), rgb(242, 206, 210), rgb(224, 156, 168), rgb(246, 114, 138))
+);
+
+.standard {
+    background-color: map-get($standard, bg-standard);
+}

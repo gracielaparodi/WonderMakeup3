@@ -10,17 +10,19 @@ footer {
     .redes {
         display: flex;
         justify-content: right;
+        padding: 20px;
 
-        redes1 {
+        .redes1 {
             display: flex;
             padding: 5px;
+        }
 
-            &:hover {
-                filter: opacity(0.9);
-                transform: scale(1.06);
-            }
+        .redes1:hover {
+            filter: opacity(0.9);
+            transform: scale(1.06);
         }
     }
+
 
     arriba {
         text-decoration: none;

@@ -1,7 +1,18 @@
 @import "../base/variables";
 
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: $BG;
     padding: 10px;
+}
+
+.HOME {
+    padding: 10px;
+}
+
+.HOME:hover {
+    filter: opacity(0.9);
+    transform: scale(1.06);
 }

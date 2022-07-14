@@ -1,0 +1,28 @@
+.skincaretxt {
+    color: $Tittle-Color;
+    padding: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+.skincareimg {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+
+    .txt {
+        color: $Text-color;
+        margin-left: 50px;
+        margin-right: 50px;
+        @extend %texto;
+    }
+
+
+}
